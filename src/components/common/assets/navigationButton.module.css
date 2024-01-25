@@ -1,0 +1,22 @@
+.navigationButtonLeft, .navigationButtonRight {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: rgb(240, 249, 248);;
+    border: 2px dashed rgb(32, 34, 46);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: all 0.3s ease;
+}
+
+.navigationButtonLeft:hover, .navigationButtonRight:hover {
+    background-color: rgb(34, 36, 48);
+    border: 2px solid rgb(26, 28, 40);
+}
+
+.navigationText {
+    font-size: 20px;
+}
