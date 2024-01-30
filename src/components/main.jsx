@@ -5,16 +5,16 @@ import NextButton from './common/nextButton';
 import PrevButton from './common/prevButon';
 
 const typeColors = {
-  "normal": 'gray',
-  "fire": 'red',
-  "water": 'blue',
-  "grass": 'green',
-  "electric": 'yellow',
-  "ice": 'lightblue',
-  "fighting": 'orange',
-  "poison": 'purple',
-  "ground": 'brown',
-  "flying": 'skyblue'
+  normal: '#A8A878',
+  fire: '#F08030',
+  water: '#6890F0',
+  grass: '#78C850',
+  electric: '#F8D030',
+  ice: '#98D8D8',
+  fighting: '#C03028',
+  poison: '#A040A0',
+  ground: '#E0C068',
+  flying: '#A890F0'
 };
 
 const PokemonTable = () => {

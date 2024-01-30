@@ -1,6 +1,6 @@
 body {
+    /* margin: 0px; */
     background-color: whitesmoke;
-    margin: 0px;
-    font-family: 'Comfortaa', cursive;
+    font-family: sans-serif;
     font-weight: bold;
 }
