@@ -1,10 +1,9 @@
 import React from "react";
-import styles from './assets/navigationButton.module.css';
 
 const NextButton = () => {
     return (
-        <button className={styles.navigationButtonLeft}>
-            <span className={styles.navigationText} color="green">
+        <button style={{border: '#0000', backgroundColor: '#0000', cursor: 'pointer'}}>
+            <span color="green">
                 ❮
             </span>
         </button>
