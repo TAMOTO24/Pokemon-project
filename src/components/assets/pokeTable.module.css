@@ -74,7 +74,7 @@
   .next {
     display: inline-block;
     margin: 0 8px;
-    padding: 8px;
+    padding: 4px;
     cursor: pointer;
     background-color: #4caf50;
     border: 2px dashed rgb(32, 34, 46);
@@ -141,6 +141,13 @@ ul{
 @media (max-width: 767px) {
   body {
     overflow-x: hidden;
+    font-weight: normal;
+  }
+  .pages{
+    margin: 0 4px;
+  }
+  .next, .prev{
+    margin: 0 3px;
   }
   .searchBlock{
     justify-content: center;
@@ -187,7 +194,6 @@ ul{
 
   .typeTag {
     padding: 10px;
-    font-weight: bolder;
   }
 
   .pokemonList {
@@ -215,8 +221,8 @@ ul{
     position: absolute;
     top: 50%;
     left: 50%;
+    max-width: 90%;
     transform: translate(-50%, -50%);
-    max-width: 80%;
     box-sizing: border-box;
   }
 }
